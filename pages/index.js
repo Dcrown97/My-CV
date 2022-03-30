@@ -167,7 +167,7 @@ export default function Home() {
                 _hover={{ textDecoration: "none" }}
                 cursor={"pointer"}
                 as={Link}
-                href="https://banjo-tola-folio.netlify.app/"
+                href="https://my-folio-tau.vercel.app/"
               >
                 <Text pl={{ base: "20px" }} w="100%" color={"#007bff"}>
                   Portfolio
