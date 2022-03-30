@@ -10,7 +10,7 @@ import {
 import Head from "next/head";
 import { MdOutlineEmail } from "react-icons/md";
 import { BiLocationPlus, BiWorld } from "react-icons/bi";
-import { AiFillGithub, AiOutlinePhone } from "react-icons/ai";
+import { AiFillGithub, AiOutlinePhone, AiFillLinkedin } from "react-icons/ai";
 import { FiTwitter } from "react-icons/fi";
 import { useEffect } from "react/cjs/react.production.min";
 
@@ -137,6 +137,24 @@ export default function Home() {
                 </Text>{" "}
               </Link>
               <AiFillGithub />
+            </HStack>
+            <HStack
+              textAlign={{ base: "left", md: "right" }}
+              pb="6px"
+              pr="20px"
+            >
+              <Link
+                w="100%"
+                _hover={{ textDecoration: "none" }}
+                cursor={"pointer"}
+                as={Link}
+                href="https://www.linkedin.com/in/aisimiyu-oluwadarasimi-3454bb196/"
+              >
+                <Text pl={{ base: "20px" }} w="100%" color={"#007bff"}>
+                  Linkendin
+                </Text>{" "}
+              </Link>
+              <AiFillLinkedin />
             </HStack>
             <HStack
               textAlign={{ base: "left", md: "right" }}
